@@ -1,8 +1,6 @@
  
 #include "EthStratumClient.h"
-#include <libdevcore/Log.h>
 #include <libethash/endian.h>
-using boost::asio::ip::tcp;
 
 
 static void diffToTarget(uint32_t *target, double diff)

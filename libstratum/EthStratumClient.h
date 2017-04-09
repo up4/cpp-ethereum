@@ -5,6 +5,7 @@
 #include <json/json.h>
 #include <libdevcore/Log.h>
 #include <libdevcore/FixedHash.h>
+#include <libdevcore/SHA3.h>
 #include <libethcore/Farm.h>
 #include <libethcore/EthashAux.h>
 #include <libethcore/Miner.h>
